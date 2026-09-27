@@ -12,7 +12,7 @@ class Hero:
         return random.randint(1, self.attack_power)
 
     def battle_cry(self):
-        self.cry = "I'll get ya"
+        self.cry = "I'll gut ya like a fish"
         print(f"{self.name} yells: {self.cry}")
 
     def take_damage(self, damage):
